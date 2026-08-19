@@ -4,6 +4,8 @@ public class Main {
 
         Welcome welcome = new Welcome();
 
-        welcome.sayHello();
+        String userName = welcome.inputName();
+
+        welcome.greetUser(userName);
     }
 }

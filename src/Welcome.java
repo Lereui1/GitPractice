@@ -2,15 +2,17 @@ import java.util.Scanner;
 
 public class Welcome {
 
-    public void sayHello() {
+    public String inputName() {
+
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Введите пожалуйста имя: ");
 
-        String name = scanner.nextLine();
+        return scanner.nextLine();
+    }
+
+    public void greetUser(String name) {
 
         System.out.println("Hello, " + name + "! Welcome to my Git project!");
-
-        scanner.close();
     }
 }
