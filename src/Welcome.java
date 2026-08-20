@@ -13,6 +13,6 @@ public class Welcome {
 
     public void greetUser(String name) {
 
-        System.out.println("Hello, " + name + "! Welcome to my Git project!");
+        System.out.println("Hello, " + name + "! Welcome to my Git project! TEST TEST");
     }
 }
